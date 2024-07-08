@@ -9,7 +9,7 @@ Feature: US_002 - Create a New Event
     And User enters valid information to create a new event
 
       | Title                | New Event             |
-      | Date                 | 25/07/2024            |
+      | Date                 | 26/07/2024            |
       | Time                 | 16:30                 |
       | Fee                  | 100                   |
       | Duration             | 10                    |

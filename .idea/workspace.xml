@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2450543-8236-4005-b31f-517b07da5ef8" name="Changes" comment="08.07.2024">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CommonPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WelcomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/UI_StepDefs/US_002_CreateANewEvent_stepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/UI_StepDefs/US_002_CreateANewEvent_stepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us002_CreateANewEvent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us002_CreateANewEvent.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,7 @@
     "Cucumber Java.Feature: us001_Events.executor": "Run",
     "Cucumber Java.Feature: us002_CreateANewEvent.executor": "Run",
     "Cucumber Java.Scenario: TC_01 User is able to create an event.executor": "Run",
+    "Cucumber Java.Scenario: TC_01 User is able to open Events Page.executor": "Run",
     "JUnit.CukesRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -144,6 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Scenario: TC_01 User is able to open Events Page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us001_Events.feature" />
+      <option name="GLUE" value="stepDefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Task_Urbanic_Farm" />
+      <option name="NAME_FILTER" value="^TC_01 User is able to open Events Page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^TC_01 User is able to open Events Page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: TC_01 User is able to open Events Page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task_Urbanic_Farm" />
       <extension name="coverage">
@@ -162,6 +184,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: us002_CreateANewEvent" />
+        <item itemvalue="Cucumber Java.Scenario: TC_01 User is able to open Events Page" />
         <item itemvalue="Cucumber Java.Feature: us001_Events" />
         <item itemvalue="Cucumber Java.Scenario: TC_01 User is able to create an event" />
         <item itemvalue="JUnit.CukesRunner" />
@@ -201,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720455847216</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="08.07.2024">
+      <option name="closed" value="true" />
+      <created>1720458274464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720458274464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

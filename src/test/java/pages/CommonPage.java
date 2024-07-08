@@ -10,7 +10,6 @@ public class CommonPage {
         PageFactory.initElements(driver, this);
     }
 
-    private WelcomePage welcomePage;
     private LoginPage loginPage;
     private AccountHomePage accountHomePage;
     private EventsPage eventsPage;
@@ -29,14 +28,6 @@ public class CommonPage {
             eventsPage = new EventsPage();
         }
         return eventsPage;
-    }
-
-
-    public WelcomePage getWelcomePage() {
-        if (welcomePage == null) {
-            welcomePage = new WelcomePage();
-        }
-        return welcomePage;
     }
 
     public AccountHomePage getAccountHomePage() {

@@ -40,7 +40,7 @@ public class US_002_CreateANewEvent_stepDefs extends CommonPage {
 
     @And("User verifies that a new event is created")
     public void userVerifiesThatANewEventIsCreated() {
-//        ReusableMethods.waitFor(5);
+        ReusableMethods.waitFor(5);
         getMyEventsPage().VerifyingNewEventIsCreated();
         getMyEventsPage().DeletingLastCreatedEvent();
     }
