@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2450543-8236-4005-b31f-517b07da5ef8" name="Changes" comment="08.07.2024">
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/UI_StepDefs/US_001_EventsMenuCheck_stepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us002_CreateANewEvent.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/cucumber.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/enums/URL_LINKS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/enums/URL_LINKS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/enums/USERCREDENTIAL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/enums/USERCREDENTIAL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/AccountWeeklyOrderPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/EventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/EventsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MyEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MyEventsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/UI_StepDefs/US_001_CreateANewEvent_stepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/UI_StepDefs/US_002_CreateANewEvent_stepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/MyScreenRecorder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us001_Events.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us001_Events.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +53,13 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Cucumber Java.Feature: us001_Events.executor": "Run",
     "Cucumber Java.Feature: us002_CreateANewEvent.executor": "Run",
+    "Cucumber Java.Scenario: TC_01 User is able to create an event.executor": "Run",
     "JUnit.CukesRunner.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zafer/OneDrive/Java/EVB_Java/Task_Urbanic_Farm/src/test/resources/feature/uiFeature",
+    "last_opened_file_path": "C:/Users/zafer/OneDrive/Java/EVB_Java/Task_Urbanic_Farm/src/test/resources",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -80,6 +68,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\zafer\OneDrive\Java\EVB_Java\Task_Urbanic_Farm\src\test\resources" />
       <recent name="C:\Users\zafer\OneDrive\Java\EVB_Java\Task_Urbanic_Farm\src\test\resources\feature\uiFeature" />
       <recent name="C:\Users\Baba\OneDrive\Java\EVB_Java\Task_Urbanic_Farm\src\test\java\runners" />
       <recent name="C:\Users\Baba\OneDrive\Java\EVB_Java\Task_Urbanic_Farm\src\test\java\enums" />
@@ -96,7 +85,7 @@
       <recent name="stepDefinitions" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: TC_01 User is able to create an event">
+  <component name="RunManager" selected="Cucumber Java.Feature: us002_CreateANewEvent">
     <configuration name="Feature: us001_Events" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us001_Events.feature" />
@@ -172,9 +161,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: TC_01 User is able to create an event" />
         <item itemvalue="Cucumber Java.Feature: us002_CreateANewEvent" />
         <item itemvalue="Cucumber Java.Feature: us001_Events" />
+        <item itemvalue="Cucumber Java.Scenario: TC_01 User is able to create an event" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
     </recent_temporary>
@@ -204,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720428727295</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="08.07.2024">
+      <option name="closed" value="true" />
+      <created>1720455847216</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720455847216</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
