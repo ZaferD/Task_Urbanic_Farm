@@ -10,10 +10,8 @@ public class CommonPage {
         PageFactory.initElements(driver, this);
     }
 
-    private HomePage homePage;
     private WelcomePage welcomePage;
     private LoginPage loginPage;
-    private AccountWeeklyOrderPage accountWeeklyOrderPage;
     private AccountHomePage accountHomePage;
     private EventsPage eventsPage;
     private MyEventsPage myEventsPage;
@@ -41,20 +39,11 @@ public class CommonPage {
         return welcomePage;
     }
 
-
     public AccountHomePage getAccountHomePage() {
         if (accountHomePage == null) {
             accountHomePage = new AccountHomePage();
         }
         return accountHomePage;
-    }
-
-
-    public AccountWeeklyOrderPage getAccountWeeklyOrderPage() {
-        if (accountWeeklyOrderPage == null) {
-            accountWeeklyOrderPage = new AccountWeeklyOrderPage();
-        }
-        return accountWeeklyOrderPage;
     }
 
 
@@ -65,14 +54,5 @@ public class CommonPage {
 
         return loginPage;
     }
-
-
-    public HomePage getHomePage() {
-        if (homePage == null) {
-            homePage = new HomePage();
-        }
-        return homePage;
-    }
-
 
 }

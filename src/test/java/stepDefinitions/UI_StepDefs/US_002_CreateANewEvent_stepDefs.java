@@ -10,7 +10,7 @@ import utilities.ReusableMethods;
 
 import java.util.List;
 
-public class US_001_CreateANewEvent_stepDefs extends CommonPage {
+public class US_002_CreateANewEvent_stepDefs extends CommonPage {
     @Given("User goes to My Events Page")
     public void userGoesToMyEventsPage() {
         getMyEventsPage().MyEventsPageButton();
@@ -19,6 +19,7 @@ public class US_001_CreateANewEvent_stepDefs extends CommonPage {
 
     @When("User clicks the Create Event button")
     public void userClicksTheCreateEventButton() {
+        ReusableMethods.waitFor(5);
         getMyEventsPage().CreateNewEvent.click();
     }
     @And("User enters valid information to create a new event")
@@ -39,7 +40,7 @@ public class US_001_CreateANewEvent_stepDefs extends CommonPage {
 
     @And("User verifies that a new event is created")
     public void userVerifiesThatANewEventIsCreated() {
-        ReusableMethods.waitFor(5);
+//        ReusableMethods.waitFor(5);
         getMyEventsPage().VerifyingNewEventIsCreated();
         getMyEventsPage().DeletingLastCreatedEvent();
     }

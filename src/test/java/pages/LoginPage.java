@@ -64,13 +64,12 @@ public class LoginPage extends CommonPage{
         input_email.sendKeys(usercredential.getUsername());
         input_password.sendKeys(usercredential.getPassword());
         submit_button.click();
-        getAccountWeeklyOrderPage().zipCodeBoxCloseButton.click();
     }
 
     public void validCredential(){
         driver.get(LOGIN_URL.getLink());
-        LoginEmail.sendKeys(USERCREDENTIAL.USER1.getUsername());
-        input_password.sendKeys(USERCREDENTIAL.USER1.getPassword());
+        LoginEmail.sendKeys(USERCREDENTIAL.USERSELLER.getUsername());
+        input_password.sendKeys(USERCREDENTIAL.USERSELLER.getPassword());
         submit_button.click();
     }
 

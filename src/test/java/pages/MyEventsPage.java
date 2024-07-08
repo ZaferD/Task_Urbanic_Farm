@@ -21,10 +21,6 @@ public class MyEventsPage extends CommonPage {
     public WebElement SearchPlacesInput;
     @FindBy(css = ".autocomplete-dropdown-container>li")
     public List<WebElement> suggestedAddressList;
-
-    /**
-     * US_080
-     */
     @FindBy(xpath = "//div[@class='col-10']//input")
     public WebElement createEventAddressInput;
     @FindBy(id = "fee")
@@ -45,8 +41,10 @@ public class MyEventsPage extends CommonPage {
     public WebElement ToastMessage;
     @FindBy(xpath = "//*[text()='My Events']")
     public WebElement MyEventsPage;
-    @FindBy(css = "button.events-i-organize_btnCreate__2AWbt")
+    @FindBy(xpath = "//button[text()='Create New Event']")
+    //@FindBy(css = "button.events-i-organize_btnCreate__2AWbt")
     public WebElement CreateNewEvent;
+
     @FindBy(css = "#title")
     public WebElement Eventtitle;
     @FindBy(css = ".btn.btn-outline-success.mb-1")
@@ -196,6 +194,7 @@ public class MyEventsPage extends CommonPage {
     }
 
     public void VerifyingNewEventIsCreated() {
+//        ReusableMethods.waitFor(5);
         AlertEventCreated.isDisplayed();
         Assert.assertEquals("New Event", CreatedEventTitle.getLast().getText());
     }
