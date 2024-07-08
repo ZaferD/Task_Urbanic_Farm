@@ -22,6 +22,7 @@ public class US_002_CreateANewEvent_stepDefs extends CommonPage {
         ReusableMethods.waitFor(5);
         getMyEventsPage().CreateNewEvent.click();
     }
+
     @And("User enters valid information to create a new event")
     public void userEntersValidInformationToCreateANewEvent(DataTable dataTable) {
         List<List<String>> listItems = dataTable.asLists(String.class);

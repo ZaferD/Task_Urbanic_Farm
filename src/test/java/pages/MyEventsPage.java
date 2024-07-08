@@ -194,7 +194,6 @@ public class MyEventsPage extends CommonPage {
     }
 
     public void VerifyingNewEventIsCreated() {
-//        ReusableMethods.waitFor(5);
         AlertEventCreated.isDisplayed();
         Assert.assertEquals("New Event", CreatedEventTitle.getLast().getText());
     }

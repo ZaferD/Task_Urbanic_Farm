@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c2450543-8236-4005-b31f-517b07da5ef8" name="Changes" comment="08.07.2024">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/CommonPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/CommonPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/WelcomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MyEventsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MyEventsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitions/UI_StepDefs/US_002_CreateANewEvent_stepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitions/UI_StepDefs/US_002_CreateANewEvent_stepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us002_CreateANewEvent.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/feature/uiFeature/us002_CreateANewEvent.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +59,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/zafer/OneDrive/Java/EVB_Java/Task_Urbanic_Farm/src/test/resources",
+    "last_opened_file_path": "C:/Users/zafer/OneDrive/Java/EVB_Java/UrbanicBullsProject",
     "project.structure.last.edited": "Artifacts",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -184,8 +182,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: us002_CreateANewEvent" />
-        <item itemvalue="Cucumber Java.Scenario: TC_01 User is able to open Events Page" />
         <item itemvalue="Cucumber Java.Feature: us001_Events" />
+        <item itemvalue="Cucumber Java.Scenario: TC_01 User is able to open Events Page" />
         <item itemvalue="Cucumber Java.Scenario: TC_01 User is able to create an event" />
         <item itemvalue="JUnit.CukesRunner" />
       </list>
@@ -232,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720458274464</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="08.07.2024">
+      <option name="closed" value="true" />
+      <created>1720459128948</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720459128948</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
