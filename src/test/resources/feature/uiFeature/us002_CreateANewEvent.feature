@@ -17,6 +17,5 @@ Feature: US_002 - Create a New Event
       | Schedule             | Afternoon Events      |
       | Description          | Online Meeting        |
       | Terms and Conditions | Attendance Compulsory |
-
     When User clicks on the submit button
     And User verifies that a new event is created
